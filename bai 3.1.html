@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let value = parseFloat(prompt('Type a number', 0));
+        switch (value == 0) {
+            case true:
+                alert(0);
+                break;
+            default: switch (value > 0) {
+                    case true:
+                        alert(1);
+                        break;
+                    default: alert(-1);
+                    }
+        }
+    </script>
+</body>
+</html>
